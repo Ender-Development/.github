@@ -1,7 +1,21 @@
 # Ender-Development
 
 Welcome to our page! Ender-Development currently consists of:
-- `_MasterEnderman_` aka Ender
-- `Klebestreifen` aka Klebi
+- [MasterEnderman](https://github.com/MasterEnderman)
+- [Klebestreifen](https://github.com/Klebestreifen)
 
-![Metrics](https://metrics.lecoq.io/Ender-Development?template=classic&activity=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=true&activity.filter=all&config.timezone=Europe%2FBerlin)
+This organization was created in September 2020 so me and my friend could work on projects together. Right now we mostly work on Minecraft mods, but we are open to other projects as well. Everything we do is open source, so feel free to check out our repositories!
+
+## Find us on other platforms
+[![Discord](https://img.shields.io/discord/244064852249673729?style=for-the-badge&logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=%235865F2&color=%23000000)](https://discord.gg/JF7x2vG)
+[![CurseForge](https://img.shields.io/badge/curseforge-F16436?style=for-the-badge&logo=curseforge&logoColor=%23FFFFFF)](https://www.curseforge.com/members/enderdevelopment/projects)
+[![Modrinth](https://img.shields.io/badge/modrinth-00AF5C?style=for-the-badge&logo=modrinth&logoColor=%23FFFFFF)](https://modrinth.com/user/MasterEnderman)
+
+## Partnership with Akliz
+
+<a href="https://www.akliz.net/enderman"><img src="https://github.com/Ender-Development/PatchouliBooks/raw/master/banner.png" align="center"/></a>
+
+If you aren't located in the [US](https://www.akliz.net/enderman), Akliz now offers servers in:
+
+- [Europe](https://www.akliz.net/enderman-eu)
+- [Oceania](https://www.akliz.net/enderman-oce)
