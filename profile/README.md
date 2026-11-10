@@ -1,4 +1,5 @@
-# [Ender-Development.org](https://ender-development.org)
+# <img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/logo.png" height="42" width="42"> [Ender-Development.org](https://ender-development.org)
+<a href='https://www.akliz.net/enderman'><img src='https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/banner.png' alt='Promotional Banner'/></a>
 
 Welcome to our page! Ender-Development currently consists of:
 - [MasterEnderman](https://github.com/MasterEnderman)
