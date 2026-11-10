@@ -14,7 +14,7 @@ This collective was created in September 2020 so me and my friend could work on 
 
 ## Partnership with Akliz
 
-<a href="https://www.akliz.net/enderman"><img src="https://github.com/Ender-Development/.github/refs/heads/master/assets/ender-development/banner.png" align="center"/></a>
+<a href="https://www.akliz.net/enderman"><img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/partnership.png" align="center"/></a>
 
 If you aren't located in the [US](https://www.akliz.net/enderman), Akliz now offers servers in:
 
