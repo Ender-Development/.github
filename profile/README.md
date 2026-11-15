@@ -97,7 +97,7 @@ Most of our code is **LGPL-3.0-only**, some is MIT - each repo states its own li
 <div align="center">
 
 ```
-  /\_/\   thanks for stopping by      
+  /\_/\   thanks for stopping by       
  ( o.o )  contributions, coffee and cat
   > ♥ <   pictures always welcome      
 ```
