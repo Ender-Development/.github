@@ -29,7 +29,15 @@
 | 📬 **commissions** | Small builds for others, when the pot has room |
 
 <!-- BEGIN:projects -->
-*(this section will be generated automatically - current versions and all; nothing to see here yet)*
+---
+
+[![EnderDevelopmentTemplate](https://img.shields.io/github/v/tag/ender-development/EnderDevelopmentTemplate?label=%E2%98%95%20EnderDevelopmentTemplate&labelColor=06060a&color=ae45ff)](https://github.com/Ender-Development/EnderDevelopmentTemplate)
+
+---
+
+[![selection-gui-crafting-continued](https://img.shields.io/github/v/tag/ender-development/selection-gui-crafting-continued?label=%F0%9F%94%A7%20selection-gui-crafting-continued&labelColor=06060a&color=ae45ff)](https://github.com/Ender-Development/selection-gui-crafting-continued)
+
+---
 <!-- END:projects -->
 
 ## <img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/commissions.svg" alt="`~ $ commissions --help`" />
