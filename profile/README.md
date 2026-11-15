@@ -65,7 +65,7 @@ We take on a small number of commissions at a time, so each gets proper attentio
 ## <img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/rules.svg" alt="`~ $ cat /etc/house-rules`" />
 
 1. Everything we do is open source. Check the repos, poke around.
-2. Found a bug? Open an issue - repro steps and a stack trace is always appreciated.
+2. Found a bug? Open an issue - repro steps and a stack trace are always appreciated.
 3. Contributions of every size are welcome, typo fixes included.
 4. We're slow sometimes. That's life, not disinterest. A friendly ping is fine.
 
