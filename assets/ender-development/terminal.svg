@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06060a"/>
+      <stop offset="60%" stop-color="#0b1510"/>
+      <stop offset="100%" stop-color="#0d0118"/>
+    </linearGradient>
+    <radialGradient id="glowP" cx="88%" cy="10%" r="45%">
+      <stop offset="0%" stop-color="#ae45ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ae45ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowG" cx="10%" cy="100%" r="45%">
+      <stop offset="0%" stop-color="#1cff62" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#1cff62" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; white-space: pre; }
+    .dim   { fill: #ffffff; fill-opacity: 0.45; }
+    .txt   { fill: #ffffff; fill-opacity: 0.85; }
+    .green { fill: #1cff62; }
+    .purp  { fill: #ae45ff; }
+  </style>
+
+  <!-- background -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#glowP)"/>
+  <rect width="1200" height="340" fill="url(#glowG)"/>
+
+  <!-- terminal window -->
+  <rect x="60" y="40" width="1080" height="260" rx="14" fill="#06060a" fill-opacity="0.75"
+        stroke="#ae45ff" stroke-opacity="0.35"/>
+  <path d="M60 54a14 14 0 0 1 14-14h1052a14 14 0 0 1 14 14v26H60z" fill="#0d0118"/>
+  <circle cx="90"  cy="60" r="6" fill="#ae45ff" fill-opacity="0.8"/>
+  <circle cx="112" cy="60" r="6" fill="#1cff62" fill-opacity="0.8"/>
+  <circle cx="134" cy="60" r="6" fill="#ffffff" fill-opacity="0.25"/>
+  <text x="600" y="65" font-size="14" text-anchor="middle" class="dim">ender-development.org — zsh — 80×24</text>
+
+  <!-- prompt + text -->
+  <text x="95" y="130" font-size="22"><tspan class="green">~</tspan><tspan class="dim"> $ </tspan><tspan class="txt">brew coffee &amp;&amp; pet cat &amp;&amp; ./gradlew build</tspan></text>
+  <text x="95" y="170" font-size="22" class="dim">☕ brewing…  done.</text>
+
+  <text x="95" y="235" font-size="56" font-weight="700" class="green">ender-development.org<tspan class="purp">_</tspan></text>
+  <text x="97" y="272" font-size="20" class="txt">minecraft mods · java &amp; kotlin · cat-approved :3</text>
+
+  <!-- cat -->
+  <text x="900" y="150" font-size="26" class="purp"> /\_/\</text>
+  <text x="900" y="182" font-size="26" class="purp">( o.o )</text>
+  <text x="900" y="214" font-size="26" class="purp"> &gt; ^ &lt;</text>
+
+  <!-- steam + cup -->
+  <text x="1030" y="150" font-size="22" class="dim">)  )</text>
+  <text x="1030" y="176" font-size="22" class="dim"> ) )</text>
+  <text x="1018" y="204" font-size="22" class="green">.-----.</text>
+  <text x="1018" y="228" font-size="22" class="green">|     |]</text>
+  <text x="1018" y="252" font-size="22" class="green">'-----'</text>
+
+  <!-- blinking cursor -->
+  <rect x="743" y="196" width="27" height="40" class="green" fill="#1cff62" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0.9" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
