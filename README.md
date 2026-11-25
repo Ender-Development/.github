@@ -1,17 +1,34 @@
 # .github
-Public Repo for our [Ender-Development](https://github.com/Ender-Development) page.
+Public Repo for our [Ender-Development](https://github.com/Ender-Development) page. Furthermore it functions as asset storage for various projects.
 
-<a href="https://www.akliz.net/enderman"><img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/banner.png" align="center"/></a>
+<div align="center">
 
-## Partnership with Akliz
+<img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/terminal.svg" alt="ender-development.org - minecraft mods, java and kotlin, cat-approved :3" width="100%" />
 
-> It's a pleasure to be partnered with Akliz. Besides being a fantastic server provider, which makes it incredibly easy
-> to set up a server of your choice, they help me to push myself and the quality of my projects to the next level.
-> Furthermore, you can click on the banner below to get a discount. :')
+</div>
 
-<a href="https://www.akliz.net/enderman"><img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/partnership.png" align="center"/></a>
+## <img src="https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/partner.svg" alt="`~ $ coffee --partner`" />
 
-If you aren't located in the [US](https://www.akliz.net/enderman), Akliz now offers servers in:
+<div align="center">
 
-- [Europe](https://www.akliz.net/enderman-eu)
-- [Oceania](https://www.akliz.net/enderman-oce)
+**Need a server to play on?** Our hosting partner [Akliz](https://www.akliz.net/enderman) has got you covered.
+
+[![Akliz hosting - promotional banner](https://raw.githubusercontent.com/Ender-Development/.github/refs/heads/master/assets/ender-development/banner.png)](https://www.akliz.net/enderman)
+
+Servers in [US](https://www.akliz.net/enderman) · [Europe](https://www.akliz.net/enderman-eu) · [Oceania](https://www.akliz.net/enderman-oce)
+
+</div>
+
+---
+
+<div align="center">
+
+```
+  /\_/\   thanks for stopping by       
+ ( o.o )  contributions, coffee and cat
+  > ♥ <   pictures always welcome      
+```
+
+<sub>spilled beans everywhere · supervised by cats · © Ender-Development.org</sub>
+
+</div>
