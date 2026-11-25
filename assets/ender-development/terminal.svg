@@ -14,10 +14,11 @@
       <stop offset="100%" stop-color="#1cff62" stop-opacity="0"/>
     </radialGradient>
   </defs>
-
   <style>
-    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; white-space: pre; }
+    text { font-family: 'JetBrains Mono','Fira Code',Consolas,monospace; white-space: pre; }
     .dim   { fill: #ffffff; fill-opacity: 0.45; }
+    .cmd   { fill: #ffffff; fill-opacity: 0.9; }
+    .arg   { fill: #ffffff; fill-opacity: 0.65; }
     .txt   { fill: #ffffff; fill-opacity: 0.85; }
     .green { fill: #1cff62; }
     .purp  { fill: #ae45ff; }
@@ -30,19 +31,26 @@
 
   <!-- terminal window -->
   <rect x="60" y="40" width="1080" height="260" rx="14" fill="#06060a" fill-opacity="0.75"
-        stroke="#ae45ff" stroke-opacity="0.35"/>
+        stroke="#1cff62" stroke-opacity="0.8"/>
   <path d="M60 54a14 14 0 0 1 14-14h1052a14 14 0 0 1 14 14v26H60z" fill="#0d0118"/>
   <circle cx="90"  cy="60" r="6" fill="#ae45ff" fill-opacity="0.8"/>
   <circle cx="112" cy="60" r="6" fill="#1cff62" fill-opacity="0.8"/>
   <circle cx="134" cy="60" r="6" fill="#ffffff" fill-opacity="0.25"/>
   <text x="600" y="65" font-size="14" text-anchor="middle" class="dim">ender-development.org — zsh — 80×24</text>
 
-  <!-- prompt + text -->
-  <text x="95" y="130" font-size="22"><tspan class="green">~</tspan><tspan class="dim"> $ </tspan><tspan class="txt">brew coffee &amp;&amp; pet cat &amp;&amp; ./gradlew build</tspan></text>
+  <!-- prompt line (45 chars × 13.2 = 594) -->
+  <text x="95" y="130" font-size="22" textLength="594" lengthAdjust="spacing" xml:space="preserve"><tspan class="purp">~</tspan><tspan class="green"> $</tspan><tspan class="cmd"> brew</tspan><tspan class="arg"> coffee &amp;&amp; pet cat &amp;&amp; ./gradlew build</tspan></text>
   <text x="95" y="170" font-size="22" class="dim">☕ brewing…  done.</text>
 
-  <text x="95" y="235" font-size="56" font-weight="700" class="green">ender-development.org<tspan class="purp">_</tspan></text>
+  <!-- heading (21 chars × 33.6 = 705.6, so it ends at x = 800.6) -->
+  <text x="95" y="235" font-size="56" font-weight="700" class="green"
+        textLength="705.6" lengthAdjust="spacing">ender-development.org</text>
   <text x="97" y="272" font-size="20" class="txt">minecraft mods · java &amp; kotlin · cat-approved :3</text>
+
+  <!-- blinking cursor, starts 5px after the heading -->
+  <rect x="805.6" y="196" width="27" height="40" fill="#1cff62" fill-opacity="0.8">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- cat -->
   <text x="900" y="150" font-size="26" class="purp"> /\_/\</text>
@@ -55,9 +63,4 @@
   <text x="1018" y="204" font-size="22" class="green">.-----.</text>
   <text x="1018" y="228" font-size="22" class="green">|     |]</text>
   <text x="1018" y="252" font-size="22" class="green">'-----'</text>
-
-  <!-- blinking cursor -->
-  <rect x="743" y="196" width="27" height="40" class="green" fill="#1cff62" opacity="0">
-    <animate attributeName="opacity" values="0;0;0.9;0.9" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
 </svg>
