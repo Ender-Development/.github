@@ -36,7 +36,7 @@
 ---
 
 [![selection-gui-crafting-continued](https://img.shields.io/github/v/tag/ender-development/selection-gui-crafting-continued?label=%F0%9F%94%A7%20selection-gui-crafting-continued&labelColor=06060a&color=ae45ff)](https://github.com/Ender-Development/selection-gui-crafting-continued)
-
+[![simpler-wooden-pipes](https://img.shields.io/github/v/tag/ender-development/simpler-wooden-pipes?label=%F0%9F%94%A7%20simpler-wooden-pipes&labelColor=06060a&color=ae45ff)](https://github.com/Ender-Development/simpler-wooden-pipes)
 ---
 <!-- END:projects -->
 
